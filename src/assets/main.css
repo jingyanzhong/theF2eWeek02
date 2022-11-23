@@ -1,0 +1,19 @@
+@import './base.css';
+body{
+  font-family: 'Noto Sans TC', sans-serif;
+  letter-spacing: 1em;
+}
+a{
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+img{
+  display: block;
+  width: 100%;
+}
+.disabled{
+  pointer-events: none;
+  cursor: default;
+  color: #E2E1DD;
+}
